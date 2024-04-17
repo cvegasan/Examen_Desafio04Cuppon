@@ -1,0 +1,47 @@
+body{
+    margin: 0px;          /* sin margenes a los lados */
+    font-family: 'Roboto', sans-serif; /* cuando no funciona la primera, se ocupa la segunda, sino la tercera. estos son los "fallbacks" */
+}
+
+body *{                   /* reseteo de etiquetas (*) significa todo, todas las etiquetas dentro de body */
+    margin: 0px;
+    border: 0px;     /* rich black hexadecimal #RRGGBB*/
+    padding: 0px;          /* sin margenes a los lados */
+}
+
+.color-nav{
+    background-color:#28A745;
+}
+
+.color-precio-verde{
+    color:#28A745;
+    font-size: 20pt;
+}
+
+.color-footer{
+    background:#ffff;
+}
+.tamannio-cuppon-logo{
+    width: 86pt;
+    height: 25pt;
+}
+
+.tamannio-cuppon-footer{
+    width: 82pt;
+    height: 24pt;
+}
+.tamanio-titulo-footer{
+    font-size: 21pt;
+}
+.iconos-blanco{
+    color:#ffffff ;
+}
+
+.color-titulo-card{
+    color:#212529;
+    font-size: 20pt;
+}
+.color-texto-card{
+    color:#707070;
+    font-size: 16pt;
+}
